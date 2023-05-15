@@ -1,0 +1,6 @@
+framework module Pods_WNHL_App {
+  umbrella header "Pods-WNHL-App-umbrella.h"
+
+  export *
+  module * { export * }
+}
