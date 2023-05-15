@@ -4,7 +4,7 @@ This code was created by Sawyer Fenwick and Daniel Figueroa for completion of CO
 
 It has not been maintained by us since creation. Once it was on the App Store, it became property of the WNHL. What is currently on the App Store is being maintained by the WNHL.  
 
-Please see the .mov file as a demo of how the software looked/ran at the time.  
+Please see the .mov file as a demo of how the software looked/ran at the time. Please see the wnhl_demos folder in the wnhl_android repo for images of the Android version.    
 
 ## Features  
 
