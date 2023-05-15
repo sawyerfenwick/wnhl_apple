@@ -1,23 +1,26 @@
 # WNHL-Apple
 
-## Background
+This code was created by Sawyer Fenwick and Daniel Figueroa for completion of COSC 3P97 Mobile Computing Experiential Project.  
 
-The iOS variant of the existing WNHL (Wednesday Night Hockey League) mobile app on Android devices which was an app designed for increased convenience at navigating the services of WNHL.
-This developed at the request of the owners of the organization.
+It has not been maintained by us since creation. Once it was on the App Store, it became property of the WNHL. What is currently on the App Store is being maintained by the WNHL.  
 
-## Setup
+Please see the .mov file as a demo of how the software looked/ran at the time.  
 
-You will need to set this up on Xcode. Afterwards, no additional libaries should be needed to be installed as no additional ones were used. As a result, after it is cloned onto Xcode, 
-you should be able to build and then run the application on a simulated device. It can be done on your phone as well but this will involve the additional steps of setting your phone to "Developer Mode" and subsequently
-'trusting' the developer. 
+## Features  
 
-## How To Use
+Accessed public Wordpress API to get Player, Game and Location data. All data was stored locally in an SQL database, and was checked for updates when the app opened.  
 
-The app will initially take a moment on first instatiation as it fetches all the information from the database per the WNHL's data. Afterwards one can navigate via touch 
-to the other parts of the app to see teams, statistics, settings and even the means to search. Since this app is mostly for purveying data, most features are limited
-to just viewing the data and going back. However, certain features exist such as the location for games or donations which will take the user out of the app and into another.
+Team Profile Page showed list of players with stats, team stats and list of games for that team, past and present.  
 
-## Credits
-Daniel - Frontend Developer
+Reminders could be set for games as Notifications.  
 
-Sawyer Fenwick - Backend Developer
+Stats page showed and ranked the stats of each player in the league.  
+
+Schedule page showed each upcoming game. Once the date and time of the game passed, games were removed from the schedule.  
+Clicking a schedule card would give you options to set reminders or get directions via GoogleMaps API.  
+
+Set or cancel reminders in Notifications Settings.  
+
+Clear cache in Notifications Settings.  
+
+Check for updates anytime in Settings. 
